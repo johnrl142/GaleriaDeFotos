@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*  background-color: #ee1d02;
+    background-image: linear-gradient(160deg, #ee1d02 0%, #d08980 100%);*/
+
+}
+
+.header {
+    align-items: center;
+    background-color: #ee1d02;
+    color: #fff;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+}
+
+.header__img {
+    margin-left: 30px;
+    width: 200px;
+}
+
+.login {
+    background-image: linear-gradient(#ee1d02, #d08980);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    min-height: calc(100vh - 200px);
+}
+
+/*contenedor del login*/  
+.login__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.login__container h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.login__container--for {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container--for label {
+    font-size: 14px;
+}
+
+/*recuerdame*/
+.login__container--remenber-me {
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login__container--remenber-me a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login__container--remenber-me a:hover {
+    color: white;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+/*iconos de socialMedia*/
+.login__container-socialMedia div {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login__container-socialMedia div img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.login__container--registro {
+    font-size: 14px;
+}
+
+/*registro (parte de abajo*/
+.login__container--registro a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.login__container--registro a:hover {
+    text-decoration: underline;
+}
+
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-width: 0px;
+    border-bottom: 2px solid white;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+::placeholder {
+    color: white;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+}
+
+/*pide de pagina-*/     
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #d08980;
+}
+
+.footer a {
+    color: white;
+    cursor:pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
